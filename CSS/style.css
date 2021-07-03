@@ -175,7 +175,7 @@ img{
   animation: loading-2 1.5s linear forwards 1.8s;
 }
 .progress.yellow .progress-bar{
-  border-color: #fdba04;
+  border-color: #6991da;
 }
 .progress.yellow .progress-left .progress-bar{
   animation: loading-3 1s linear forwards 1.8s;
