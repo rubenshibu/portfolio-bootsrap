@@ -7,7 +7,8 @@ html {
 }
 
 body {
-  background: #1f2235;
+  /* background: #464646; */
+  background: #E1E8EB;
   font-family: "Baloo Tamma 2", cursive;
 }
 
@@ -21,7 +22,7 @@ body {
 
 .navigation-link:hover {
   text-decoration: none;
-  border-bottom: 2px solid #f5ba09;
+  border-bottom: 2px solid #343A40;
   transition: 0.5s ease;
 }
 
@@ -47,17 +48,18 @@ body {
 
 /* About Section */
 .about {
-  background: #313552;
+  background: #c4c4bc;
   border-radius: 0.5rem;
+  margin-top: 50px;
 }
 
 .card {
-  border-bottom: 8px solid #f5ba09;
+  border-bottom: 8px solid #343A40;
 }
 
 /* Social Media Section */
 #social-media {
-  background: #313552;
+  background: #c4c4bc;
 }
 
 /* Add color to Social Media Links */
@@ -65,6 +67,25 @@ body {
   padding: 0.5rem;
   max-width: 15rem;
   margin-left: 1rem;
-  border: 2px solid #f5ba09;
+  border: 2px solid #343A40;
   border-radius: 0.5rem;
+}
+
+
+.animation {
+  /* position: relative; */
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, brown, #5f5dbd 50%, #fff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.18);
+}
+.animation:hover {
+  background-position: 0 100%;
 }
