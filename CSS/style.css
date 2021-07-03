@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap');
 
-/* Global Properties */
 html {
   scroll-behavior: smooth;
 }
@@ -12,12 +11,10 @@ body {
   font-family: "Baloo Tamma 2", cursive;
 }
 
-/* Main Heading Font */
 .m-heading {
   font-family: "Roboto Slab", serif;
 }
 
-/* Navigation */
 .navigation-link {
   border: 2px solid transparent;
 }
@@ -28,7 +25,6 @@ body {
   transition: 0.5s ease;
 }
 
-/* Main Container height*/
 .main-container {
   height: 100vh;
 }
@@ -42,7 +38,7 @@ body {
 
 /* Changing Name Font sixe */
 .main_row h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 /* Making the main image the size of the screen */
@@ -68,7 +64,7 @@ body {
 
 /* Add color to Social Media Links */
 .media_link {
-  padding: 1rem;
+  padding: 0.5rem;
   max-width: 15rem;
   margin-left: 1rem;
   border: 2px solid #f5ba09;
