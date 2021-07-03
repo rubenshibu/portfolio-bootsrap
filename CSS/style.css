@@ -48,7 +48,7 @@ body {
 /* Making the main image the size of the screen */
 .main_row img {
   width: auto;
-  height: auto;
+  height: 100vh;
 }
 
 /* About Section */
