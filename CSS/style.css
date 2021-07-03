@@ -181,7 +181,7 @@ img{
   animation: loading-3 1s linear forwards 1.8s;
 }
 .progress.pink .progress-bar{
-  border-color: #ed687c;
+  border-color: #888182;
 }
 .progress.pink .progress-left .progress-bar{
   animation: loading-4 0.4s linear forwards 1.8s;
