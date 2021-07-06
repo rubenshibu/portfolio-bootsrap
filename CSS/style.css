@@ -1,6 +1,6 @@
 /* font */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -8,8 +8,17 @@ html {
 
 body {
   /* background: #464646; */
-  background: #E1E8EB;
+  background: #e1e8eb;
   font-family: "Baloo Tamma 2", cursive;
+}
+
+nav {
+  background-color: #e1e8eb !important;
+}
+
+.menu-icon {
+  color: rgba(0, 0, 0, 0) !important;
+  border: none;
 }
 
 .m-heading {
@@ -22,20 +31,19 @@ body {
 
 .navigation-link:hover {
   text-decoration: none;
-  border-bottom: 2px solid #343A40;
+  border-bottom: 2px solid #343a40;
   transition: 0.5s ease;
 }
 
-.main-container {
+/* .main-container {
   height: 55vh;
-}
+} */
 
 .main_row {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .main_row h1 {
   font-size: 3.5rem;
@@ -54,10 +62,10 @@ body {
 }
 
 .card {
-  border-bottom: 8px solid #343A40;
+  border-bottom: 8px solid #343a40;
 }
 
-img{
+img {
   padding: 50px;
 }
 
@@ -71,10 +79,9 @@ img{
   padding: 0.5rem;
   max-width: 15rem;
   margin-left: 1rem;
-  border: 2px solid #343A40;
+  border: 2px solid #343a40;
   border-radius: 0.5rem;
 }
-
 
 .animation {
   /* position: relative; */
@@ -93,10 +100,9 @@ img{
   background-position: 0 100%;
 }
 
-
 /* Progress */
 
-.progress{
+.progress {
   width: 150px;
   height: 150px;
   line-height: 150px;
@@ -105,7 +111,7 @@ img{
   box-shadow: none;
   position: relative;
 }
-.progress:after{
+.progress:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -115,7 +121,7 @@ img{
   top: 0;
   left: 0;
 }
-.progress > span{
+.progress > span {
   width: 50%;
   height: 100%;
   overflow: hidden;
@@ -123,10 +129,10 @@ img{
   top: 0;
   z-index: 1;
 }
-.progress .progress-left{
+.progress .progress-left {
   left: 0;
 }
-.progress .progress-bar{
+.progress .progress-bar {
   width: 100%;
   height: 100%;
   background: none;
@@ -135,7 +141,7 @@ img{
   position: absolute;
   top: 0;
 }
-.progress .progress-left .progress-bar{
+.progress .progress-left .progress-bar {
   left: 100%;
   border-top-right-radius: 80px;
   border-bottom-right-radius: 80px;
@@ -143,10 +149,10 @@ img{
   -webkit-transform-origin: center left;
   transform-origin: center left;
 }
-.progress .progress-right{
+.progress .progress-right {
   right: 0;
 }
-.progress .progress-right .progress-bar{
+.progress .progress-right .progress-bar {
   left: -100%;
   border-top-left-radius: 80px;
   border-bottom-left-radius: 80px;
@@ -155,7 +161,7 @@ img{
   transform-origin: center right;
   animation: loading-1 1.8s linear forwards;
 }
-.progress .progress-value{
+.progress .progress-value {
   width: 90%;
   height: 90%;
   border-radius: 50%;
@@ -168,80 +174,82 @@ img{
   top: 5%;
   left: 5%;
 }
-.progress.blue .progress-bar{
+.progress.blue .progress-bar {
   border-color: #049dff;
 }
-.progress.blue .progress-left .progress-bar{
+.progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
 }
-.progress.yellow .progress-bar{
+.progress.yellow .progress-bar {
   border-color: #6991da;
 }
-.progress.yellow .progress-left .progress-bar{
+.progress.yellow .progress-left .progress-bar {
   animation: loading-3 1s linear forwards 1.8s;
 }
-.progress.pink .progress-bar{
+.progress.pink .progress-bar {
   border-color: #888182;
 }
-.progress.pink .progress-left .progress-bar{
+.progress.pink .progress-left .progress-bar {
   animation: loading-4 0.4s linear forwards 1.8s;
 }
-.progress.green .progress-bar{
+.progress.green .progress-bar {
   border-color: #1abc9c;
 }
-.progress.green .progress-left .progress-bar{
+.progress.green .progress-left .progress-bar {
   animation: loading-5 1.2s linear forwards 1.8s;
 }
-@keyframes loading-1{
-  0%{
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
-  100%{
-      -webkit-transform: rotate(180deg);
-      transform: rotate(180deg);
-  }
-}
-@keyframes loading-2{
-  0%{
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-  }
-  100%{
-      -webkit-transform: rotate(144deg);
-      transform: rotate(144deg);
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }
-@keyframes loading-3{
-  0%{
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
-  100%{
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg);
-  }
-}
-@keyframes loading-4{
-  0%{
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-  }
-  100%{
-      -webkit-transform: rotate(36deg);
-      transform: rotate(36deg);
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
   }
 }
-@keyframes loading-5{
-  0%{
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
-  100%{
-      -webkit-transform: rotate(126deg);
-      transform: rotate(126deg);
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
-@media only screen and (max-width: 990px){
-  .progress{ margin-bottom: 20px; }
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg);
+  }
+}
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(126deg);
+    transform: rotate(126deg);
+  }
+}
+@media only screen and (max-width: 990px) {
+  .progress {
+    margin-bottom: 20px;
+  }
 }
