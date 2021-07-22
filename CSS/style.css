@@ -253,3 +253,13 @@ img {
     margin-bottom: 20px;
   }
 }
+
+
+.college{
+  /* color: var(--darkMaincolor); */
+  text-decoration: none;
+}
+
+.college:hover{
+  color: var(--lightMaincolor);
+}
