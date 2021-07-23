@@ -295,7 +295,7 @@ link.effect-underline:hover:after {
 
 
 .fa-react:hover{
-   color:rgb(17, 0, 255) !important;
+   color:#61DBFB !important;
 }
 .fa-react:active{
    color:rgb(0, 217, 255) !important;
@@ -306,4 +306,12 @@ link.effect-underline:hover:after {
 } 
 .fa-js-square:active{
     color:rgb(255, 255, 130) !important;
+}
+
+.fa-figma:hover{
+    color:#e04a34 !important;
+}
+
+.fa-fagma:active{
+    color: #f3b45c !important;
 }
