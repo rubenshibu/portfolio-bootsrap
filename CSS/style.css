@@ -291,3 +291,19 @@ link.effect-underline:hover:after {
 	transform: scale(1);
 }
 
+
+
+
+.fa-react:hover{
+   color:rgb(17, 0, 255) !important;
+}
+.fa-react:active{
+   color:rgb(0, 217, 255) !important;
+}
+
+.fa-js-square:hover{
+    color:yellow !important;
+} 
+.fa-js-square:active{
+    color:rgb(255, 255, 130) !important;
+}
