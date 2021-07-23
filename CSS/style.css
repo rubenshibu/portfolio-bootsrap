@@ -327,3 +327,15 @@ link.effect-underline:hover:after {
 .fa-bootstrap:active {
   color: #f8f9fa;
 }
+
+.fa-html5:hover {
+  color: #f06529;
+}
+
+.fa-html5:active {
+  color: #ebebeb  ;
+}
+
+.fa-css3:hover {
+  color: #264de4;
+}
