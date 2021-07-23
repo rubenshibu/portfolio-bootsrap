@@ -315,3 +315,10 @@ link.effect-underline:hover:after {
 .fa-fagma:active{
     color: #f3b45c !important;
 }
+
+.fa-node-js:hover{
+  color: #3C873A;
+}
+.fa-node-js:active{
+  color: #68A063;
+}
