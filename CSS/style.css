@@ -302,7 +302,7 @@ link.effect-underline:hover:after {
 }
 
 .fa-js-square:hover{
-    color:yellow !important;
+    color:#F0DB4F !important;
 } 
 .fa-js-square:active{
     color:rgb(255, 255, 130) !important;
