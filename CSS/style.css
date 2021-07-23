@@ -333,14 +333,14 @@ link.effect-underline:hover:after {
 }
 
 .fa-html5:active {
-  color: #ebebeb  ;
+  color: #ebebeb;
 }
 
 .fa-css3-alt:hover {
   color: #264de4;
 }
 
-.fa-css3-alt:active { 
+.fa-css3-alt:active {
   color: #ebebeb;
 }
 
@@ -348,6 +348,6 @@ link.effect-underline:hover:after {
   color: #306998;
 }
 
-.fa-python:active{
-  color: #FFE873;
+.fa-python:active {
+  color: #ffe873;
 }
