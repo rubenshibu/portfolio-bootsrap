@@ -336,6 +336,10 @@ link.effect-underline:hover:after {
   color: #ebebeb  ;
 }
 
-.fa-css3:hover {
+.fa-css3-alt:hover {
   color: #264de4;
+}
+
+.fa-css3-alt:active { 
+  color: #ebebeb;
 }
