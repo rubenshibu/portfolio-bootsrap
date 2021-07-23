@@ -261,64 +261,69 @@ img {
 /* .wrapper {
   -webkit-transform: translate(-50%,-50%);
 } */
- .link {
+.link {
   color: rgb(0, 0, 0);
   text-decoration: none;
-    isplay: inline-block;
+  isplay: inline-block;
   /* position: relative; */
 }
 
 /*effect-underline*/
 a.effect-underline:after {
-	content: '';
+  content: "";
   position: absolute;
   left: 0;
   display: inline-block;
-  height: .7em;
+  height: 0.7em;
   width: 100%;
   border-bottom: 1px solid;
   margin-top: 10px;
   opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
 }
 
 link.effect-underline:hover:after {
   opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
-
-
-
-.fa-react:hover{
-   color:#61DBFB !important;
+.fa-react:hover {
+  color: #61dbfb !important;
 }
-.fa-react:active{
-   color:rgb(0, 217, 255) !important;
+.fa-react:active {
+  color: rgb(0, 217, 255) !important;
 }
 
-.fa-js-square:hover{
-    color:#F0DB4F !important;
-} 
-.fa-js-square:active{
-    color:rgb(255, 255, 130) !important;
+.fa-js-square:hover {
+  color: #f0db4f !important;
+}
+.fa-js-square:active {
+  color: rgb(255, 255, 130) !important;
 }
 
-.fa-figma:hover{
-    color:#e04a34 !important;
+.fa-figma:hover {
+  color: #e04a34 !important;
 }
 
-.fa-fagma:active{
-    color: #f3b45c !important;
+.fa-fagma:active {
+  color: #f3b45c !important;
 }
 
-.fa-node-js:hover{
-  color: #3C873A;
+.fa-node-js:hover {
+  color: #3c873a;
 }
-.fa-node-js:active{
-  color: #68A063;
+.fa-node-js:active {
+  color: #68a063;
+}
+
+.fa-bootstrap:hover {
+  color: #17a2b8;
+}
+
+.fa-bootstrap:active {
+  color: #f8f9fa;
 }
