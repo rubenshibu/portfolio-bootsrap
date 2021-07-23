@@ -343,3 +343,11 @@ link.effect-underline:hover:after {
 .fa-css3-alt:active { 
   color: #ebebeb;
 }
+
+.fa-python:hover {
+  color: #306998;
+}
+
+.fa-python:active{
+  color: #FFE873;
+}
