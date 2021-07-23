@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -6,7 +7,7 @@ html {
 
 body {
   background: #e1e8eb;
-  font-family: "Baloo Tamma 2", cursive;
+  font-family: poppins, arial, sans-serif;
 }
 
 nav {
