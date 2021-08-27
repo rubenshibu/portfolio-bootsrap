@@ -114,6 +114,10 @@ img {
   top: 0;
   left: 0;
 }
+.r_r{
+  font-size: large;
+  font-weight: 500;
+}
 .progress > span {
   width: 50%;
   height: 100%;
